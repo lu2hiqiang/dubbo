@@ -7,5 +7,8 @@ server:
 dubbo:
   application:
     name: dubbo-consumer
+  protocol:
+    name: dubbo
+    port: 20881
   registry:
-    address: zookeeper://192.168.1.234:2181
+    address: zookeeper://127.0.0.1:2181
